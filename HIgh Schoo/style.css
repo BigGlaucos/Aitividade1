@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+body {
+  background: #111827;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 328px;
+  height: 75px;
+  color: #fff;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  font-size: 32px;
+  padding-top: 80px;
+  padding-left: 160px;
+}
+
+#ponto {
+    width: 16px;
+    height: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 64px;
+}
+
+#image {
+  width: 576px;
+  height: 476.48px;
+}
+
+.login {
+  width: 480px;
+  height: 476px;
+  background-color: #f9f9fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+}
+
+#login-logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+
+  width: 400px;
+  height: 48px;
+
+  background: #7180b952;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.2s;
+}
+
+.login-form input:hover {
+  background: #4b61bb52;
+}
+
+#login-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+  width: 400px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  background: #7180b9;
+  color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  transition: all 0.3s;
+}
+
+#login-btn:hover {
+  background: #596cbb;
+  color: #000000;
+}
+
+.alt-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 37px;
+}
+
+.alt-login h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+
+}
+
+#alt-login-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  width: 244px;
+  height: 48px;
+  background: #7180b9;
+  border-radius: 4px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 10.5px;
+  transition: all 0.3s;
+  
+}
+
+#alt-login-btn a {
+    color: #000000;
+}
+
+#alt-login-btn:hover {
+  background: #596cbb;
+}
